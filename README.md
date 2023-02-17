@@ -7,16 +7,16 @@ To evaluate Machine Learning Models to predict SRR and MRR based on Chemical com
 
 # Data:
 
-Features:
+### Features:
 We had 23 independent variables, including 19 chemical compositions (Ni, Cr, Fe ...) and 4 measurements (Voltage, Ampere, Time On, Time off).
 
-Targets:
+### Targets:
 We had two target vaiables namely SRR and MRR.
 SRR is the surface roughness meaured in micro meters.
 MRR is the volumn of metal disintegrate per minute, measured in mm^3/min.
 
 
-Steps in Model Selection:
+### Steps in Model Selection:
 
 1) We applied 4 algorithms, among them RF yielded the best results.
 2) We then cross validated(by keeping default parameters) all four algorithms and again RF was the best.
@@ -29,4 +29,4 @@ Steps in Model Selection:
 
 
 
-# More details on the documentation coming soon.
+###### More details on the documentation coming soon.
